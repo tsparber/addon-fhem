@@ -4,7 +4,7 @@
   "slug": "fhem",
   "description": "FHEM Plugin",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
-  "url": "https://github.com/KastB/addon-fhem",
+  "url": "https://github.com/tsparber/addon-fhem",
   "startup": "services",
   "webui": "http://[HOST]:[PORT:8083]",
   "panel_icon": "mdi:HomeFloorL",
