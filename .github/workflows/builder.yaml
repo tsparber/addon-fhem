@@ -2,7 +2,7 @@ name: Builder
 
 env:
   BUILD_ARGS: "--test"
-  MONITORED_FILES: "build.yaml config.yaml build.json config.json Dockerfile icon.png rootfs run.sh"
+  MONITORED_FILES: "build.yaml config.yaml config.json Dockerfile icon.png rootfs run.sh"
 
 on:
   push:
