@@ -7,6 +7,9 @@ declare -x APT_PKGS=`jq -r '.apt_pks' $CONFIG_PATH`
 declare -x PIP_PKGS=`jq -r '.pip_pks' $CONFIG_PATH`
 declare -x NPM_PKGS=`jq -r '.npm_pks' $CONFIG_PATH`
 
+# Allow changes to devices
+mount -o remount, rw /dev
+
 mkdir -p /config/fhem
 mkdir -p /opt/fhem
 mount --bind /config/fhem /opt/fhem
