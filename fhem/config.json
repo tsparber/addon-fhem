@@ -1,8 +1,8 @@
 {
   "name": "FHEM",
-  "version": "3.0.0",
+  "version": "3.0.0-beta.1",
   "slug": "fhem",
-  "description": "FHEM Plugin",
+  "description": "FHEM (TM) is a GPL'd perl server for house automation. It is used to automate some common tasks in the household like switching lamps / shutters / heating / etc. and to log events like temperature / humidity / power consumption.",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "url": "https://github.com/tsparber/addon-fhem",
   "startup": "services",

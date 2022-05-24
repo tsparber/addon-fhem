@@ -2,7 +2,6 @@ ARG BUILD_FROM
 ARG BUILD_ARCH
 
 FROM $BUILD_FROM
-LABEL maintainer="kastbernd@gmx.de"
 
 # Copy data for add-on
 RUN rm -rf /opt/fehm

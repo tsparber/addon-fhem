@@ -1,7 +1,7 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-dockerfile
 build_from:
-  aarch64: "ghcr.io/fhem/fhem/fhem-docker:3.0.0-bullseye"
-  amd64: "ghcr.io/fhem/fhem/fhem-docker:3.0.0-bullseye"
+  aarch64: "ghcr.io/fhem/fhem/fhem-minimal-docker:3.0.0-bullseye"
+  amd64: "ghcr.io/fhem/fhem/fhem-minimal-docker:3.0.0-bullseye"
   armhf: "ghcr.io/fhem/fhem/fhem-minimal-docker:3.0.0-bullseye"
-  armv7: "ghcr.io/fhem/fhem/fhem-docker:3.0.0-bullseye"
+  armv7: "ghcr.io/fhem/fhem/fhem-minimal-docker:3.0.0-bullseye"
   i386: "ghcr.io/fhem/fhem/fhem-minimal-docker:3.0.0-bullseye"
