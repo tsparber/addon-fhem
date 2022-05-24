@@ -10,7 +10,6 @@
   "panel_icon": "mdi:HomeFloorL",
   "panel_title": "FHEM",
   "uart": true,
-  "ingress": true,
   "ports": {
     "8083/tcp": 8083
   },
