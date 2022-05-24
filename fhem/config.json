@@ -26,6 +26,7 @@
     "SYS_RAWIO"
   ],
   "init": false,
+  "image": "ghcr.io/tsparber/{arch}-addon-fhem",
   "options": {
     "apt_pks": "",
     "pip_pks": "",
